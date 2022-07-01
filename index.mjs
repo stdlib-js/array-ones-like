@@ -1,4 +1,0 @@
-// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-import t from"https://cdn.jsdelivr.net/gh/stdlib-js/array-dtype@esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/array-full@esm/index.mjs";import r from"https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64@esm/index.mjs";import s from"https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32@esm/index.mjs";import m from"https://cdn.jsdelivr.net/gh/stdlib-js/string-format@esm/index.mjs";var n=t,i=e,l=s,d=m,a=new r(1,0),o=new l(1,0);var p=function(t){var e,r;if(null===(e=n(t)))throw new TypeError(d("invalid argument. First argument must be either an array, typed array, or complex typed array. Value: `%s`.",t));return arguments.length>1&&(e=arguments[1]),r="complex128"===e?a:"complex64"===e?o:1,i(t.length,r,e)};export{p as default};
-//# sourceMappingURL=index.mjs.map
