@@ -1,4 +1,0 @@
-// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-import t from"https://cdn.jsdelivr.net/gh/stdlib-js/array-dtype@esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/array-full@esm/index.mjs";import r from"https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64@esm/index.mjs";import s from"https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32@esm/index.mjs";import m from"https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-fmtprodmsg@esm/index.mjs";var l=new r(1,0),n=new s(1,0);function o(r){var s,o;if(null===(s=t(r)))throw new TypeError(m("00a2r",r));return arguments.length>1&&(s=arguments[1]),o="complex128"===s?l:"complex64"===s?n:1,e(r.length,o,s)}export{o as default};
-//# sourceMappingURL=index.mjs.map
