@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import onesLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-ones-like@esm/index.mjs';
+import onesLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-ones-like@v0.2.0-esm/index.mjs';
 ```
 
 #### onesLike( x\[, dtype] )
@@ -122,7 +122,7 @@ var arr = onesLike( x, 'int32' );
 
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtypes@esm/index.mjs';
 import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-zeros@esm/index.mjs';
-import onesLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-ones-like@esm/index.mjs';
+import onesLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-ones-like@v0.2.0-esm/index.mjs';
 
 // Create a zero-filled array:
 var x = zeros( 4, 'complex128' );
