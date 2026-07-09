@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-27)
+## Unreleased (2026-07-09)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`669fa61`](https://github.com/stdlib-js/stdlib/commit/669fa61233ff20dd079ca971291e30cc36992046) - **docs:** fix examples to use supported dtypes [(#13392)](https://github.com/stdlib-js/stdlib/pull/13392) _(by Philipp Burckhardt)_
 -   [`dbe4c82`](https://github.com/stdlib-js/stdlib/commit/dbe4c820ea98330253b4054a5bc9b04b2293415b) - **docs:** propagate fixes to sibling packages [(#12677)](https://github.com/stdlib-js/stdlib/pull/12677) _(by Philipp Burckhardt, Athan Reines)_
 -   [`68ef3ce`](https://github.com/stdlib-js/stdlib/commit/68ef3cef76a8f6080cf8cf4171b9a449c969315b) - **refactor:** perform explicit dtype validation _(by Athan Reines)_
 
